@@ -13,6 +13,7 @@ import '../../features/medication/presentation/screens/medication_detail_screen.
 import '../../features/medication/presentation/screens/add_medication_screen.dart';
 import '../../features/health/presentation/screens/health_vitals_screen.dart';
 import '../../features/health/presentation/screens/add_vitals_screen.dart';
+import '../../features/profile/presentation/screens/profile_screen.dart';
 
 /// App router configuration using GoRouter
 class AppRouter {
@@ -171,18 +172,6 @@ class AppRouter {
 }
 
 // Placeholder screens that we'll implement later
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Profile')),
-      body: const Center(child: Text('Profile Screen - Coming Soon')),
-    );
-  }
-}
-
 class EditProfileScreen extends StatelessWidget {
   const EditProfileScreen({super.key});
 
